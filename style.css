@@ -18,7 +18,6 @@ body {
 }
 
 .container {
-    /* min-width: 100%; */
     width: 350px;
     height: 200px;
     box-shadow: 0 5px 4px rgba(0, 0, 0, 0.3);
@@ -37,21 +36,21 @@ body {
     margin: 5px 0;
 }
 
-.container textarea {
+textarea {
     border: 1px solid rgb(99, 99, 99);
 }
 
-.container textarea:focus {
+textarea:focus {
     outline: 1px solid rgb(57, 162, 254);
     border: none;
 }
 
-.container button {
+button {
     background-color: rgb(167, 213, 253);
     cursor: pointer;
     transition: all ease-in-out 1s;
 }
 
-.container button:hover {
+button:hover {
     background-color: rgb(144, 200, 249);
 }
