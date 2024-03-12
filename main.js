@@ -3,7 +3,7 @@ const copyBtn = document.querySelector("button")
 
 
 copyBtn.addEventListener('click', () => {
-    // textarea.select()
+    textarea.select()
     textarea.copy
     let text = textarea.value
     navigator.clipboard.writeText(text)
